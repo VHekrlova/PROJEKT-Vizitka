@@ -11,6 +11,7 @@ body {
     background-color: #fff; 
     box-shadow: 10px 10px 10px grey;
     border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
 	position: relative;
     }
 
@@ -22,10 +23,13 @@ body {
     top: -75px;
     left: 475px;
 }    
+.ramecek h1 {
+    color: #d63031;
+}
+
+
 /*
 BARVY:
-
-červená na hlavní nadpis:  #d63031
 
 tlačítko Twitter:					 #1da1f2
 tlačítko Twitter aktivní:	 #0b7bc1
