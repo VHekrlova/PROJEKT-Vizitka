@@ -27,10 +27,18 @@ body {
     color: #d63031;
     font-size: 36px;
     font-weight: bold;
+    margin: 0;
+    
 }
 
-.ramecek p {
+.text {
     font-size: 18px;
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.obsah {
+    padding: 30px;
 }
 
 
