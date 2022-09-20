@@ -2,9 +2,29 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    background-color: #b2bec3;
+}
+.ramecek {
+    margin: 150px auto;
+	width: 550px;
+    background-color: #fff; 
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+	position: relative;
+    }
+
+.ramecek img {
+    width: 150px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+    left: 475px;
+}    
 /*
 BARVY:
-šedá na pozadí stránky:		 #b2bec3
+
 červená na hlavní nadpis:  #d63031
 
 tlačítko Twitter:					 #1da1f2
