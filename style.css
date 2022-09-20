@@ -57,11 +57,21 @@ body {
     background-color: #1da1f2;
     border-radius: 5px;
     margin-bottom: 5px;
+    transition: 0.3s;
 }
 
 .obsah .facebook {
     background-color: #3b5998;
     border-radius: 5px;
+    transition: 0.3s;
+}
+
+.twitter:hover {
+    background-color: #0b7bc1;
+}
+
+.facebook:hover {
+    background-color: #2b406e;
 }
 
 
