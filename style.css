@@ -25,6 +25,12 @@ body {
 }    
 .ramecek h1 {
     color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.ramecek p {
+    font-size: 18px;
 }
 
 
