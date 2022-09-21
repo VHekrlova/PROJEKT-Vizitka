@@ -37,6 +37,12 @@ body {
     text-align: justify;
 }
 
+.text p:first-child {
+    word-spacing: -5px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
 .obsah {
     padding: 30px;
 }
@@ -73,15 +79,4 @@ body {
 .facebook:hover {
     background-color: #2b406e;
 }
-
-
-/*
-BARVY:
-
-tlačítko Twitter:					 #1da1f2
-tlačítko Twitter aktivní:	 #0b7bc1
-
-tlačítko Facebook:				 
-tlačítko Facebook aktivní: #2b406e
-*/
 
