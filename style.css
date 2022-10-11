@@ -1,82 +1,86 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 body {
-    background-color: #b2bec3;
+  background-color: #b2bec3;
 }
 .ramecek {
-    margin: 150px auto;
-	width: 550px;
-    background-color: #fff; 
-    box-shadow: 10px 10px 10px grey;
-    border-radius: 10px;
-    font-family: 'Nunito', sans-serif;
-	position: relative;
-    }
+  margin: 150px auto;
+  width: 550px;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 10px;
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  padding: 30px;
+}
 
 .ramecek img {
-    width: 150px;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: -75px;
-    left: 475px;
-}    
+  width: 150px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -75px;
+  left: 475px;
+}
 .obsah h1 {
-    color: #d63031;
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    
+  color: #d63031;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .obsah .text {
-    font-size: 18px;
-    margin: 30px 0;
-    text-align: justify;
+  font-size: 18px;
+  margin: 30px 0;
+  text-align: justify;
 }
 
 .text p:first-child {
-    word-spacing: -5px;
-    margin: 0;
-    margin-bottom: 20px;
+  word-spacing: -5px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
-.obsah {
-    padding: 30px;
-}
 
 /***TLAČÍTKA***/
 .obsah a {
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px;
-    
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
 }
 .obsah .twitter {
-    background-color: #1da1f2;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    transition: 0.3s;
+  background-color: #1da1f2;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: 0.3s;
 }
 
 .obsah .facebook {
-    background-color: #3b5998;
-    border-radius: 5px;
-    transition: 0.3s;
+  background-color: #3b5998;
+  border-radius: 5px;
+  transition: 0.3s;
 }
 
-.twitter:hover {
-    background-color: #0b7bc1;
+.twitter:hover,
+.twitter:focus
+ {
+  background-color: #0b7bc1;
 }
 
-.facebook:hover {
-    background-color: #2b406e;
+.facebook:hover,
+.facebook:focus {
+  background-color: #2b406e;
 }
-
